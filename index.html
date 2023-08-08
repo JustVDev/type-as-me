@@ -7,6 +7,23 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <script src="./app.js"></script>
+<div class="container">
+
+    <header>
+        <h1>JV Dev</h1>
+        <h1>Type as me</h1>
+    </header>
+    <main>
+        <textarea placeholder="Enter text here" name="text" id="text" cols="30" rows="10"></textarea>
+    </main>
+    <footer>
+        <h3>Copyright &copy; <span id="date"></span></h3>
+        
+        <a href="https://github.com/JustVDev"><img src="./logo-github.svg" alt="github"></a>
+        <h3>JV Dev</h3>
+    </footer>
+</div>
+    
+    <script>date.textContent = new Date().getFullYear()</script>
 </body>
 </html>

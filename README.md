@@ -1,9 +1,7 @@
 # type-as-me
 This is a custom font project. Made for entertainment.
 
-I drew each character by hand on paper. After scanning, they were all converted into 
-
-'file type'.
+I drew each character by hand on paper. After scanning, they were all converted into ttf (true type font).
 
 @font-face was used to add my font to the page, and my main goal to learn about.
 
